@@ -1,0 +1,23 @@
+.main{
+    height: 500px;
+    width: 500px;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 5px solid black;
+    transform: translate();
+}
+.child{
+    height: 300px;
+    width: 300px;
+    background-color: darkkhaki;
+    animation-name: bounce;
+}
+@keyframes bounce{
+    25%{
+        border-radius: 20%;
+        background-color: ;
+    }
+}
